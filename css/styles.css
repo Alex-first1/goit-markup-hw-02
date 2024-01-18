@@ -87,7 +87,7 @@ a {
 .Feature-title {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
-  line-height: 1.2em; /* 120% */
+  line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
 }
 .paragraf-feauture {
@@ -100,7 +100,7 @@ a {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
   font-size: 36px;
-  line-height: 1.11em; /* 111.111% */
+  line-height: 1.11; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -109,35 +109,35 @@ a {
   text-align: center;
   font-size: 20px;
 
-  line-height: 1.2em; /* 120% */
+  line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
 }
 .profesion {
   color: var(--SLATE, #434455);
   text-align: center;
   font-size: 16px;
-  line-height: 1.5em; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
 .portfolio {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
   font-size: 36px;
-  line-height: 1.11em; /* 111.111% */
+  line-height: 1.11; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
 .service {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
-  line-height: 1.2em; /* 120% */
+  line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
 }
 
 .instrument {
   color: var(--SLATE, #434455);
   font-size: 16px;
-  line-height: 1.5em; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
 
@@ -151,7 +151,7 @@ a {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.16em; /* 116.667% */
+  line-height: 1.16; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -162,7 +162,7 @@ a {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.16em; /* 116.667% */
+  line-height: 1.16; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -170,6 +170,6 @@ a {
 .paragraf-footer {
   color: var(--CLOUD, #f4f4fd);
   font-size: 16px;
-  line-height: 1.5em; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }

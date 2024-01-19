@@ -36,22 +36,14 @@ a {
   text-transform: uppercase;
 }
 .nav-link {
-  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 16px
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.02em
-  font-size: 16px;
-  line-height: 1,5; /* 150% */
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
+  color:  #2e2f42;
 }
 
-/* Стилі для стану "hover" */
-.nav-link {
-  color: #404bbf;
-  padding-bottom: 28px;
-  flex-shrink: 0;
-}
- 
+
 
 
 
@@ -76,7 +68,7 @@ a {
 }
 
 
-.contacts-link {
+.contacts-link-mail {
   color: var(--SLATE, #434455);
   font-size: 16px;
   line-height: 1.5; /* 150% */
@@ -84,8 +76,20 @@ a {
   font-style: normal
 }
 
-.contacts-link:hover, .contacts-link: :focus {
+.contacts-link-mail :hover, .contacts-link-mail: :focus {
    color: #404bbf 
+}
+
+.Contacts {
+  font-style: normal;
+}
+
+.contacts-link {
+  color: var(--SLATE, #434455);
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  font-style: normal
 }
 
 

@@ -22,7 +22,7 @@ a {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1, 17; /* 116.667% */
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -46,29 +46,50 @@ a {
 }
 
 /* Стилі для стану "hover" */
-.nav-link :hover {
+.nav-link {
   color: #404bbf;
   padding-bottom: 28px;
-  
   flex-shrink: 0;
 }
  
 
 
 
-.nav-link-studio: {
- font-weight: 500;
- line-height: 1.5;
- letter-spacing: 0.02em;
- color: #2e2f42
+.nav-link-studio {
+  font-size: 16px
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color:  #2e2f42;
 }
+
+.nav-link-studio :hover, .nav-link-studio :focus {
+  color: #404bbf
+}
+
+.nav-link {
+  font-size: 16px
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
 
 .contacts-link {
   color: var(--SLATE, #434455);
   font-size: 16px;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  font-style: normal
 }
+
+.contacts-link:hover, .contacts-link: :focus {
+   color: #404bbf 
+}
+
+
+
 .hero-images {
   background: var(--NAVY-BLUE, #2e2f42);
 }

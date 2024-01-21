@@ -55,7 +55,7 @@ a {
   color:  #2e2f42;
 }
 
-.nav-link :hover, .nav-link :focus {
+.nav-link :hover,.nav-link :focus {
   color: #404bbf;
 }
 
@@ -76,11 +76,11 @@ a {
    color: #404bbf 
 }
 
-.Contacts {
+.address {
   font-style: normal;
 }
 
-.contacts-link {
+.contacts-list {
   color: var(--SLATE, #434455);
   font-size: 16px;
   line-height: 1.5; /* 150% */

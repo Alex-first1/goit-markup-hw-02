@@ -68,8 +68,15 @@ a {
   letter-spacing: 0.02em;
   font-style: normal;
 }
+
 .adres-item {
 }
+
+.adres-item :hover,
+.adres-item :focus {
+  color: #404bbf;
+}
+
 .adres-link {
   color: #434455;
 }
@@ -82,6 +89,7 @@ a {
   color: var(--WHITE, #fff);
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
 }
 
@@ -176,6 +184,11 @@ a {
 .content {
 }
 .service {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .instrument {

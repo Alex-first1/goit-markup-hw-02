@@ -43,6 +43,10 @@ a {
   color:  #2e2f42;
 }
 
+.nav-link :hover,.nav-link :focus {
+  color: #404bbf;
+}
+
 
 
 
@@ -55,12 +59,10 @@ a {
   color:  #2e2f42;
 }
 
-.nav-link :hover,.nav-link :focus {
-  color: #404bbf;
-}
 
 
-.contacts-link-mail {
+
+.adres-link-mail {
   color: var(--SLATE, #434455);
   font-size: 16px;
   line-height: 1.5; /* 150% */
@@ -72,15 +74,15 @@ a {
   background-color: #FFFFFF;
 }
 
-.contacts-link-mail :hover, .contacts-link-mail: :focus {
-   color: #404bbf 
+.adres-link-mail :hover, .adres-link-mail: :focus {
+  color: #404bbf 
 }
 
-.address {
+.adres {
   font-style: normal;
 }
 
-.contacts-list {
+.adres-list {
   color: var(--SLATE, #434455);
   font-size: 16px;
   line-height: 1.5; /* 150% */

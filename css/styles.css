@@ -120,9 +120,16 @@ a {
   letter-spacing: 0.64px;
 }
 .hero-button {
-  
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
   background: var(--IRIS, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.hero-button:hover, .hero-button:focus{
+  background-color: #404BBF;
 }
 .Feature-title {
   color: var(--NAVY-BLUE, #2e2f42);

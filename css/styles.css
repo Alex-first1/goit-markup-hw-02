@@ -55,24 +55,8 @@ a {
   color:  #2e2f42;
 }
 
-.nav-link-studio :hover, .nav-link-studio :focus {
-  color: #404bbf
-}
-
-.nav-link-portfolio {
-  font-size: 16px
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.nav-link-contacts {
-  font-size: 16px
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+.nav-link :hover, .nav-link :focus {
+  color: #404bbf;
 }
 
 
@@ -160,7 +144,7 @@ a {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
   font-size: 20px;
-
+   font-weight: 500;
   line-height: 1.20; /* 120% */
   letter-spacing: 0.02em;
 }

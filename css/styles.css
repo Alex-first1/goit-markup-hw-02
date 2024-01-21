@@ -44,14 +44,9 @@ a {
   font-style: normal;
 }
 
-.nav-link :hover {
+.nav-item :hover, .nav-item :focus{
   color: #404bbf;
 }
-
-..nav-link :focus {
-  color: #404bbf;
-}
-
 
 .team-item { 
   background-color: #FFFFFF;

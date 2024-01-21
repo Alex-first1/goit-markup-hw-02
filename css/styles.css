@@ -52,7 +52,7 @@ a {
   background-color: #FFFFFF;
 }
 
-.adres-link :hover, .adres-link :focus {
+.adres-item :hover, .adres-item :focus {
   color: #404bbf 
 }
 

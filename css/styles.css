@@ -35,19 +35,6 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.nav-link-ind {
-  font-size: 16px
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color:  #2e2f42;
-  font-style: normal;
-}
-
-.nav-link-ind :hover,.nav-link-ind :focus {
-  color: #404bbf;
-}
-
 .nav-link {
   font-size: 16px
   font-weight: 500;
@@ -57,6 +44,10 @@ a {
   font-style: normal;
 }
 
+.nav-link :hover,.nav-link :focus {
+  color: #404bbf;
+
+}
 .team-item { 
   background-color: #FFFFFF;
 }
